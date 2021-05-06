@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: teal;
+}
+
+.title {
+    margin: 20px;
+    color: white;
+}
+
+.canvas {
+    background-color: white;
+    color: black;
+    border: 2px black solid;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+.img__1 {
+    height: 200px;
+    width: 200px;
+    margin-top: 10px;
+}
